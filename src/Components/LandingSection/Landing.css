@@ -1,0 +1,70 @@
+.landing {
+    width: 100%;
+    margin-top: 100px;
+    padding: 3rem 20rem;
+}
+
+.landing-title {
+    font-size: 50px;
+    color: #2d2e32;
+    font-family: Poppins, sans-serif;
+    margin: 0px;
+    margin-top: 20px;
+}
+
+.section-description {
+    margin-top: 50px;
+    font-weight: 500;
+}
+
+.btn-contact {
+    margin-top: 20px;
+    background-color: #fff;
+    color: #3d47f0;
+    border: 1px solid #3d47f0;
+    width: 250px;
+    height: 44px;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.tech-stack-container {
+    display: flex;
+    list-style: none;
+}
+
+.tech-stack-item {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .landing {
+        width: 100%;
+        padding: 3rem 10rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .landing {
+        width: 100%;
+        padding: 3rem 1.5rem;
+
+    }
+
+    .landing-title {
+        font-size: 35px;
+    }
+
+    .btn-contact {
+        width: 100%;
+    }
+}

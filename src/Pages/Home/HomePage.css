@@ -1,0 +1,18 @@
+.home-page {
+    height: 100vh;
+}
+
+.polka {
+    background-image: 
+      radial-gradient(rgb(192, 192, 192) 10.8%, transparent 10.8%);
+    background-position: 8px 8px;
+    background-size: 16px 16px;
+    background-color: rgb(255, 255, 255);
+}
+
+.section {
+    height: 600px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+}
