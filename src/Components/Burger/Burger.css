@@ -1,0 +1,27 @@
+.burger-container {
+    width: 44px;
+    height: 44px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tile {
+    width: 80%;
+    height: 3px;
+    margin: 4px 0px;
+    margin-right: 40px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.tile#3 {
+    width: 50%
+}
+
+@media screen and (max-width: 768px) {
+    .burger-container {
+        display: flex;
+    }
+}
