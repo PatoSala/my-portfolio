@@ -6,6 +6,7 @@ import Header from "../../Components/Header/Header";
 import Landing from "../../Components/LandingSection/Landing";
 import About from "../../Components/AboutSection/About";
 import Experience from "../../Components/ExperienceSection/Experience";
+import Contact from "../../Components/ContactSection/Contact";
 
 function HomePage() {
     return (
@@ -14,6 +15,7 @@ function HomePage() {
             <Landing/>
             <About/>
             <Experience/>
+            <Contact/>
         </div>
     )
 }

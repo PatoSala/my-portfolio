@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import "./NavLinks.css"
 
 function NavLinks() {
+
+    
+
     return (
         <div className="nav-links">
             <a href="#home" className="link">Home</a>

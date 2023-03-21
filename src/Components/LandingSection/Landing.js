@@ -11,7 +11,7 @@ function Landing() {
                 <p className="section-description">
                     Hi! 👋 I'm Pato, and I develop front-end applications for <strong>Web</strong>, <strong>Android</strong> and <strong>iOS</strong>.
                     <br/>
-                    Buenos Aires, Argentina.📍
+                    Buenos Aires, Argentina 📍.
                 </p>
 
                 <button className="btn-contact">Connect with me</button>
