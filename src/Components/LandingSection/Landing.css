@@ -4,7 +4,6 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
 }
 
 .right {
@@ -99,3 +98,9 @@
         font-size: 100px;
     }
 }
+
+@media screen and (orientation: landscape) and (max-width: 768px) {
+    .landing {
+        padding: 7rem 1.5rem;
+    }
+  }

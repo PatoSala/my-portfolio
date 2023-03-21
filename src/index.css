@@ -13,3 +13,9 @@ code {
 }
 
 
+@media screen and (orientation: landscape) and (max-width: 768px) {
+  p {
+    font-size: 70%
+  }
+}
+
