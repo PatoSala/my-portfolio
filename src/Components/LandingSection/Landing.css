@@ -2,8 +2,21 @@
     width: 100%;
     padding: 3rem 20rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.right {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: center;
+}
+
+.laptop {
+    font-size: 200px
 }
 
 .landing-title {
@@ -15,7 +28,7 @@
 }
 
 .section-description {
-    margin-top: 50px;
+    margin: 0px 0px;
     font-weight: 500;
     cursor: default;
 }
@@ -59,12 +72,18 @@
     .landing {
         padding: 20px 10rem;
     }
+
+    .right {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 768px) {
 
     .landing {
+        flex-direction: column-reverse;
         padding: 3rem 1.5rem;
+        justify-content: center;
 
     }
 
@@ -74,5 +93,9 @@
 
     .btn-contact {
         width: 100%;
+    }
+
+    .laptop {
+        font-size: 100px;
     }
 }
