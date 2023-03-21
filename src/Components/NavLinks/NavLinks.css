@@ -1,0 +1,17 @@
+.nav-links {
+    display: flex;
+    margin-right: 70px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none
+    }
+}

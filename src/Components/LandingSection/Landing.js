@@ -14,7 +14,7 @@ function Landing() {
                     Buenos Aires, Argentina.📍
                 </p>
 
-                <button className="btn-contact">Contact</button>
+                <button className="btn-contact">Connect with me</button>
 
                 {/* <h2>Tech Stack</h2>
 
