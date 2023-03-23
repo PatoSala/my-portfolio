@@ -16,6 +16,20 @@
     font-weight: 500;
 }
 
+.tech-stack {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+.tech-stack-item {
+    width: 70px;
+    height: 70px;
+    background-color: #101010;
+}
+
 @media screen and (max-width: 1280px) {
 
     .experience {
